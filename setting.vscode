@@ -1,14 +1,20 @@
 {
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
 
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.startupEditor": "newUntitledFile",
 
   "editor.tabSize": 2,
-  "editor.fontSize": 18,
-  "editor.lineHeight": 26,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Fira Code, 'Courier New', Consolas, monospace",
   "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true,
+    "source.fixAll.eslint": true
+  },
 
   "files.exclude": {
     "**/.git": true,
@@ -31,12 +37,8 @@
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  
+
   "editor.rulers": [80, 120],
-  
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
 
   "files.associations": {
     ".sequelizerc": "javascript",
@@ -49,7 +51,6 @@
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
-  
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -88,5 +89,11 @@
     "*.proto": "3d"
   },
 
-  "workbench.colorTheme": "Omni"
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontFamily": "monospace"
 }
