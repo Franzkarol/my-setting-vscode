@@ -1,19 +1,29 @@
 {
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 14,
 
-  "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.startupEditor": "newUntitledFile",
 
-  "editor.tabSize": 2,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 18,
+  "editor.tabSize": 4,
   "editor.fontWeight": "400",
-  "editor.fontFamily": "Fira Code, 'Courier New', Consolas, monospace",
+  "editor.fontFamily": "'Victor Mono', 'Fira Code' , Jetbrains Mono",
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.markdownlint": true,
     "source.fixAll.eslint": true
+  },
+
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
+
+  "workbench.colorTheme": "SynthWave '84",
+  "editor.lineHeight": 24,
+  "editor.suggestLineHeight": 0,
+  "editor.fontSize": 15,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
   },
 
   "files.exclude": {
@@ -89,11 +99,12 @@
     "*.proto": "3d"
   },
 
-  "workbench.colorTheme": "Monokai Pro",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
-  "terminal.integrated.fontFamily": "monospace"
+  "terminal.integrated.fontFamily": "monospace",
+  "cSpell.userWords": ["SMARTVPLAY", "Tizen", "enviar", "mensagem", "webapis"],
+  "workbench.iconTheme": "vscode-icons"
 }
