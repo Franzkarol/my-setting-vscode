@@ -4,9 +4,7 @@
   "workbench.startupEditor": "newUntitledFile",
 
   "editor.tabSize": 4,
-  "editor.fontWeight": "400",
-  "editor.fontFamily": "'Victor Mono', 'Fira Code' , Jetbrains Mono",
-  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.markdownlint": true,
@@ -16,7 +14,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "block",
 
-  "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "Shades of Purple",
   "editor.lineHeight": 24,
   "editor.suggestLineHeight": 0,
   "editor.fontSize": 15,
@@ -104,7 +102,43 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
-  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontFamily": "Fira Code iScript",
   "cSpell.userWords": ["SMARTVPLAY", "Tizen", "enviar", "mensagem", "webapis"],
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.fontFamily": "Operator Mono, Fira Code iScript, Menlo, Monaco, 'Victor Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "comment",
+          "entity.name.type.class", //class names
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "keyword" //import, export, return…
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
 }
