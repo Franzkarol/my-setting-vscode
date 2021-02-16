@@ -14,7 +14,6 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "block",
 
-  "workbench.colorTheme": "Shades of Purple",
   "editor.lineHeight": 24,
   "editor.suggestLineHeight": 0,
   "editor.fontSize": 15,
@@ -106,7 +105,7 @@
   "cSpell.userWords": ["SMARTVPLAY", "Tizen", "enviar", "mensagem", "webapis"],
   "workbench.iconTheme": "material-icon-theme",
 
-  "editor.fontFamily": "Operator Mono, Fira Code iScript, Menlo, Monaco, 'Victor Mono', monospace",
+  "editor.fontFamily": " Fira Code iScript, wjunior, Monaco, 'Victor Mono', monospace",
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -140,5 +139,6 @@
         }
       }
     ]
-  }
+  },
+  "workbench.colorTheme": "Monokai Dark Soda"
 }
